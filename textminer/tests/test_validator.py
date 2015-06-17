@@ -57,7 +57,7 @@ def test_words():
     assert v.words("18-wheeler tarbox")
     assert v.words("hello", count=1)
     assert v.words("hello world", count=2)
-    assert v.words("raggggg hammer dog", count=3)
+    assert v.words("raggggg hammer dog", cou[0-9a-z]nt=3)
     assert v.words("18-wheeler tarbox", count=2)
     assert not v.words("")
     assert not v.words("12")
